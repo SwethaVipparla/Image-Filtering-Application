@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: swethavipparla/simple-reverse-proxy:latest
+  backend_user:
+    build:
+      context: ../../udagram-api-user
+    image: swethavipparla/restapi-user:latest
+  backend_feed:
+    build:
+      context: ../../udagram-api-feed
+    image: swethavipparla/restapi-feed:latest
+  frontend:
+    build:
+      context: ../../udagram-frontend
+    image: swethavipparla/frontend:latest
