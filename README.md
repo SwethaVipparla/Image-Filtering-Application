@@ -1,6 +1,6 @@
 # Udagram Image Filtering Application
 
-Udagram is a simple cloud application developed as a part of the Cloud Developer Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
+Udagram is a simple cloud application that is an Instagram clone. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into four parts:
 
